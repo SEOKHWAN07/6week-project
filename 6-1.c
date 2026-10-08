@@ -1,0 +1,32 @@
+﻿#include <stdio.h>
+
+void P1()
+{
+	int grade;
+	printf("학년을 입력하세요 : ");
+	scanf_s("%d", &grade);
+
+	switch (grade)
+	{
+	case 1:
+		printf("1학년입니다.\n");
+		break;
+
+	case 2:
+		printf("2학년입니다.\n");
+		break;
+
+	case 3:
+		printf("3학년입니다.\n");
+		break;
+
+	default:
+		printf("4학년입니다.\n");
+		break;
+	}
+}
+
+int main()
+{
+	P1();
+}
